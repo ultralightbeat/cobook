@@ -17,9 +17,9 @@ conn = psycopg2.connect(
     port='5432'
 )
 
-TOKEN = "6952946591:AAHdXTymUStAGFKiiXS-O_WeFEPF2yA5e30"
+TOKEN = "YOUR_TOKEN"
 bot = telebot.TeleBot(TOKEN)
-api_key = "cddf22cd9bmshad6e03418d2edcep141e40jsn38428a79a6b5"
+api_key = "YOUR_API"
 # Создание курсора для взаимодействия с базой данных
 cursor = conn.cursor()
 
